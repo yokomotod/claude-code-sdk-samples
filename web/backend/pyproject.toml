@@ -1,0 +1,9 @@
+[project]
+name = "claude-code-sdk-samples-web-backend"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "claude-code-sdk>=0.0.14",
+    "fastapi>=0.116.1",
+    "uvicorn[standard]>=0.35.0",
+]
